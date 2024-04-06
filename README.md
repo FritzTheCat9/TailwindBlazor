@@ -38,13 +38,13 @@ Welcome to your new app.
 
 6. Comment out some code in "NavMenu.razor" that toogles nav menu (bug)
 ```
-    <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+    <span class="navbar-toggler-icon"></span>
+</button>
 
-    <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
 
-    </div>
+</div>
 ```
 
 7. Run command to build tailwind and listen to changes:
